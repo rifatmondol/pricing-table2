@@ -1,0 +1,84 @@
+/*Start Header area */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.full-section {
+  width: 1140px;
+  margin: 0 auto; }
+
+.pricing-heading {
+  text-align: center; }
+  .pricing-heading h2 {
+    font-size: 36px;
+    color: #3B3B3C;
+    margin-top: 30px;
+    margin-bottom: 25px; }
+    .pricing-heading h2 span {
+      color: #26A65B; }
+  .pricing-heading p {
+    margin-top: 0;
+    line-height: 30px;
+    color: #808080; }
+
+/*End Header area */
+/* Start pricing Table codding link */
+/* Start variable  */
+/* variable css */
+/* end  variable */
+/* End variable */
+/* Pricing table start */
+.pricing-table {
+  display: flex; }
+  .pricing-table .item {
+    width: 25%;
+    margin: 0 auto;
+    margin: 30px 20px 30px 20px;
+    text-align: center;
+    border: 1px solid #D0CDCD; }
+    .pricing-table .item h3 {
+      font-size: 20px;
+      margin: 35px 0px 35px 0px;
+      color: #4D4D4D; }
+    .pricing-table .item img {
+      margin-bottom: 25px; }
+    .pricing-table .item ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      .pricing-table .item ul li {
+        line-height: 30px;
+        text-align: justify; }
+        .pricing-table .item ul li .fa-check {
+          color: green; }
+        .pricing-table .item ul li .fa-times {
+          font-size: 18px;
+          color: red;
+          margin: 0px 21px 0px 37px !important; }
+        .pricing-table .item ul li .fa-check, .pricing-table .item ul li .fa-times {
+          margin: 0px 20px 0px 35px; }
+    .pricing-table .item h4 {
+      font-size: 20px; }
+    .pricing-table .item button {
+      border: 1px solid #26A65B;
+      background: inherit;
+      padding: 10px 30px;
+      font-size: 15px;
+      border-radius: 25px;
+      margin-bottom: 35px;
+      cursor: pointer; }
+      .pricing-table .item button:focus {
+        outline: none; }
+      .pricing-table .item button:hover {
+        background: #26A65B;
+        color: #fff;
+        transition: 0.3s ease all; }
+
+/* End pricing Table */
+/* Start variable  */
+/* variable css */
+/* end  variable */
+/* End variable */
+
+/*# sourceMappingURL=main.css.map */

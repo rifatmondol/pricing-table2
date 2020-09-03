@@ -1,0 +1,65 @@
+/* Start variable  */
+@import"../partials/variable";
+/* End variable */
+
+
+/* Pricing table start */
+
+.pricing-table{
+	display: flex;
+	.item{
+		width: 25%;
+		margin: 0 auto;
+		margin: 30px 20px 30px 20px;
+		text-align: center;
+		border: 1px solid #D0CDCD;
+		h3{
+			font-size: 20px;
+			margin: 35px 0px 35px 0px;
+			color: #4D4D4D;
+		}
+		img{
+			margin-bottom: 25px;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			li{
+				line-height: 30px;
+				text-align: justify;
+				.fa-check{
+					color: green;
+				}
+				.fa-times{
+					font-size: 18px;
+					color: red;
+					margin: 0px 21px 0px 37px!important;
+				}
+				.fa-check,.fa-times{
+					margin: 0px 20px 0px 35px;
+				}
+			}
+		}
+		h4{
+			font-size: 20px;
+		}
+		button{
+	    border: 1px solid $color;
+	    background: inherit;
+	    padding: 10px 30px;
+	    font-size: 15px;
+	    border-radius: 25px;
+	    margin-bottom: 35px;
+	    cursor: pointer;
+	    &:focus{
+				outline: none;
+			}
+			&:hover{
+				background: $color;
+				color: #fff;
+				transition: 0.3s ease all;
+			}
+		}
+	}
+}

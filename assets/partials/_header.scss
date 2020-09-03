@@ -1,0 +1,26 @@
+body{
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.full-section{
+	width: 1140px;
+	margin: 0 auto;
+}
+.pricing-heading{
+	text-align: center;
+	h2{
+		font-size: 36px;
+		color: #3B3B3C;
+		margin-top: 30px;
+		margin-bottom: 25px;
+		span{
+			color: #26A65B;
+		}
+	}
+	p{
+		margin-top: 0;
+		line-height: 30px;
+		color: #808080;
+	}
+}
